@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style/reset.css" />
+		<link rel="stylesheet" href="./style/style.css" />
+
+		<title>Frontend Mentor | Intro component with sign up form</title>
+	</head>
+	<body>
+		<main>
+			<div class="wrapper">
+				<section class="introduction">
+					<h1 class="introduction__heading">
+						Learn to code by watching others
+					</h1>
+					<p class="introduction__description">
+						See how experienced developers solve problems in real-time. Watching
+						scripted tutorials is great, but understanding how developers think
+						is invaluable.
+					</p>
+				</section>
+				<section class="section__cta">
+					<h2 class="section__cta__heading">
+						Try it free 7 days <span>then $20/mo. thereafter</span>
+					</h2>
+					<div class="section__cta__form-wrapper">
+						<form class="section__cta__form" id="form">
+							<div class="section__cta__form-input-wrapper">
+								<input
+									class="section__cta__form-input"
+									type="text"
+									placeholder="First Name"
+                  name="First Name"
+                  id="first-name"
+								/>
+								<img
+									src="./images/icon-error.svg"
+									alt="Error icon"
+									class="section__cta__form-error-icon"
+								/>
+							</div>
+							<p class="error-message">First Name cannot be empty</p>
+							<div class="section__cta__form-input-wrapper">
+								<input
+									class="section__cta__form-input"
+									type="text"
+									placeholder="Last Name"
+                  name="Last Name"
+                  id="last-name"
+								/>
+								<img
+									src="./images/icon-error.svg"
+									alt="Error icon"
+									class="section__cta__form-error-icon"
+								/>
+							</div>
+							<p class="error-message">Last Name cannot be empty</p>
+							<div class="section__cta__form-input-wrapper">
+								<input
+									class="section__cta__form-input"
+									type="email"
+									placeholder="Email Address"
+                  name="Email Addres"
+                  id="email-input"
+								/>
+								<img
+									src="./images/icon-error.svg"
+									alt="Error icon"
+									class="section__cta__form-error-icon"
+								/>
+							</div>
+							<p class="error-message">Looks like this is not an email</p>
+							<div class="section__cta__form-input-wrapper">
+								<input
+									class="section__cta__form-input"
+									type="password"
+									placeholder="Password"
+                  name="Password"
+                  id="password-input"
+								/>
+								<img
+									src="./images/icon-error.svg"
+									alt="Error icon"
+									class="section__cta__form-error-icon"
+								/>
+							</div>
+							<p class="error-message">Password cannot be empty</p>
+							<button class="section__cta__form-button" type="submit">
+								Claim your free trial
+							</button>
+						</form>
+						<p class="section__cta__disclaimer">
+							By clicking the button, you are agreeing to our
+							<a href="#">Terms and Services</a>
+						</p>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<p class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a
+					href="https://www.frontendmentor.io/profile/NitsuCosmic"
+					target="_blank"
+					>Nitsu</a
+				>.
+			</p>
+		</footer>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
